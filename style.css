@@ -19,7 +19,8 @@ body {
 .hero {
     background-color: #1F2937;
     display: flex;
-    padding: 80px;
+    justify-content: space-between;
+    padding: 120px;
 }
 .container {
     display: flex;
@@ -28,14 +29,19 @@ body {
 }
 .hero-img {
     max-width: 500px;
+
 }
 .title-text {
     color: white;
     font-size: 48px;
+    max-width: 400px;
 }
 .subheader {
     font-size: 20px;
     color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 500px;
 }
 .sign-up {
     color: white;
@@ -45,6 +51,7 @@ body {
     border-radius: 5px;
     padding: 7px 20px 7px 20px;
     border: none;
+    max-width: 120px;
 }
 #subheader-title {
     display: flex;
@@ -57,7 +64,9 @@ body {
     justify-content: center;
     gap: 52px;
     text-align: center;
-    padding-bottom: 100px;
+}
+.boxes {
+    padding: 100px;
 }
 .square-img {
     max-width: 200px;
@@ -100,11 +109,20 @@ a {
 }
 .quote {
    background-color: lightgray;
-   
+   padding: 150px;
 }
 #quote {
     font: 36px light italic;
     font-family: sans-serif;
+    justify-content: end; 
+    margin-left: 200px; 
+    margin-right: 200px;
+}
+#author {
+    display: flex;
+    margin-left: 200px; 
+    margin-right: 200px;
+    justify-content: end;
 }
 .section {
     padding-left: 200px;
@@ -115,7 +133,7 @@ a {
     background-color:#3882F6;
     color: white;
     margin: 100px;
-    padding: 100px;
+    padding: 70px;
     border-radius: 5px;
     justify-content: space-between;
 }
